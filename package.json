@@ -1,0 +1,22 @@
+{
+  "name": "api_node_mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "mysql": "^2.18.1"
+  }
+}
